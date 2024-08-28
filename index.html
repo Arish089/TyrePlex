@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="bg-light">
+    <div class="d-flex flex-column gap-2">
+    <div class="navbar bg-white shadow-sm justify-content-around border" >
+        <img src="https://cdn.tyreplex.net/themes/moonlight/images/TP-logo.png?tr=w-150,q-60" alt="">
+        <div class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a style="text-decoration: none; color:black;min-width: 100px;" class="nav-link fw-bold" href="#" id="navbarDropdown" role="button" aria-expanded="false">
+                                Car Tyres
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li class="text-center" style="font-weight: 600;">Popular Car Tyre Brands</li>
+                                <li><a class="dropdown-item fw-bolder" href="#">MRF Tyres</a></li>
+                                <li><a class="dropdown-item fw-bolder" href="#">CEAT Tyres</a></li>
+                                <li><a class="dropdown-item fw-bolder" href="#">Goodyear Tyres</a></li>
+                                <li><a class="dropdown-item fw-bolder" href="#">Apollo Tyres</a></li>
+                                <li><a class="dropdown-item fw-bolder" href="#">Bridgestone Tyres</a></li>
+                                <li><a class="dropdown-item fw-bolder" href="#">JK Tyres</a></li>
+                                <li><a class="dropdown-item fw-bolder" href="#">Michellin Tyres</a></li>
+                                <li><a class="dropdown-item fw-bolder" href="#">All Car Tyres</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a style="text-decoration: none; color:black; width: 100px;" class="nav-link fw-bold" href="#" id="navbarDropdown" role="button" aria-expanded="false">
+                                Bike Tyres
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li class="text-center " style="font-weight: 600;">Popular Bike Tyre Brands</li>
+                                <li><a class="dropdown-item fw-bolder" href="#">MRF Tyres</a></li>
+                                <li><a class="dropdown-item fw-bolder" href="#">CEAT Tyres</a></li>
+                                <li><a class="dropdown-item fw-bolder" href="#">Apollo Tyres</a></li>
+                                <li><a class="dropdown-item fw-bolder" href="#">Bridgestone Tyres</a></li>
+                                <li><a class="dropdown-item fw-bolder" href="#">JK Tyres</a></li>
+                                <li><a class="dropdown-item fw-bolder" href="#">Michellin Tyres</a></li>
+                                <li><a class="dropdown-item fw-bolder" href="#">Pirelli Tyres</a></li>
+                                <li><a class="dropdown-item fw-bolder" href="#">All Car Tyres</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a style="text-decoration: none; color:black; min-width: 120px;" class="nav-link fw-bold" href="#" id="navbarDropdown" role="button" aria-expanded="false">
+                                Tyre Pressure
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a style="text-decoration: none; color:black; min-width: 150px;" class="nav-link fw-bold" href="#" id="navbarDropdown" role="button" aria-expanded="false">
+                                Commercial Tyres
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item fw-bolder" href="#">All Commercial Tyres</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a style="text-decoration: none; color:black; min-width: 100px;" class="nav-link fw-bold" href="#" id="navbarDropdown" role="button" aria-expanded="false">
+                                Accessories
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item fw-bolder" href="#">Accessories</a></li>
+                                <li><a class="dropdown-item fw-bolder" href="#">Batteries</a></li>
+                                <li><a class="dropdown-item fw-bolder" href="#">Alloy Wheels</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a style="text-decoration: none; color:black;" class="nav-link fw-bold" href="#" id="navbarDropdown" role="button" aria-expanded="false">
+                                More
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item fw-bolder" href="#">Cashback Offers</a></li>
+                                <li><a class="dropdown-item fw-bolder" href="#">Find Tyre Dealers</a></li>
+                                <li><a class="dropdown-item fw-bolder" href="#">Compare Tyres</a></li>
+                                <li><a class="dropdown-item fw-bolder" href="#">Are You A Tyre Dealer</a></li>
+                                <li><a class="dropdown-item fw-bolder" href="#">Wheel Balancing</a></li>
+                                <li><a class="dropdown-item fw-bolder" href="#">Wheel Alignment</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="fst-normal d-flex align-items-center justify-content-center px-1">
+            <i class="bi bi-person fst-normal fw-bold" style="font-size: 28px;" ></i>
+            <p class="fw-bold mb-0 ms-0">Login</p>
+        </div>
+    </div>
+    <div class="mx-auto d-flex flex-column p-2 col-sm-10 col-11 shadow-sm  rounded my-3">
+        <div class="d-flex justify-content-between">
+
+        <div class=" d-flex flex-column justify-content-between align-items-center col-sm-5" style="flex-shrink: 1;">
+            <div>
+           <h5 class="fw-bold">SHREE HEMKUNT TYRES AND SERVICES <i class="bi bi-shield-fill-check fs-6" style="color: green;font-style: normal;font-weight: 400;">&nbsp;
+            <span>Verified</span></i>
+        </div>
+            <div class="d-flex justify-content-evenly align-items-baseline flex-wrap my-2">
+                <p class="bg-success px-1" style="color: aliceblue;">4.9</p>
+                <i class="bi bi-star-fill" style="color: gold;"></i>
+                <i class="bi bi-star-fill" style="color: gold;"></i>
+                <i class="bi bi-star-fill" style="color: gold;"></i>
+                <i class="bi bi-star-fill" style="color: gold;"></i>
+                <p class="fw-normal fs-6">2278 Reviews</p>
+                <p class="border border-1 px-1 fs-6 fw-normal" style="color: grey;">Rate</p>
+            </div>
+            <div class="d-flex gap-3  my-2"> 
+            <i class="bi bi-geo-alt"></i>
+            <p class="fw-normal fst-normal fs-6">PLOT NUMBER-09 GROUND FLOOR CISF CAMPUS ROAD, AHINSA KHAND-02 INDIRAPURAM, Ghaziabad, Uttar Pradesh, 201014</p>
+        </div>
+        <div class="d-flex gap-3  my-2">
+            <i class="bi bi-clock"></i>
+            <p class="fw-normal fst-normal fs-6" style="color: gray;">Open - Monday   to   Sunday - 10:00AM to 8:00PM</p>
+        </div>
+            <button type="button" class="btn btn-outline-danger fw-bold" >Get Directions</button>
+        </div>
+
+        <div class="col-sm-7" style="flex-grow: 1;">
+
+            <div class="container mt-5">
+                <div class="slider-container">
+                    <div class="slider-item ">
+                        <img src="https://lh3.googleusercontent.com/places/AAcXr8o52JCZ4eDqDhBAQRIDHcYnN1kNMCKBI27KOEuPvQk0C546Zftc9kpHLdW6kmlnbf1gGd7fSGfpctnLspNCfEpye7Rrmwrp094=s1600-w300" alt="" style="width: 300px; height: 180px;">
+                    </div>
+                    <div class="slider-item ">
+                        <img src="https://lh3.googleusercontent.com/places/AAcXr8o52JCZ4eDqDhBAQRIDHcYnN1kNMCKBI27KOEuPvQk0C546Zftc9kpHLdW6kmlnbf1gGd7fSGfpctnLspNCfEpye7Rrmwrp094=s1600-w300" alt="" style="width: 300px; height: 180px;">
+                    </div>
+                    <div class="slider-item ">
+                        <img src="https://lh3.googleusercontent.com/places/AAcXr8ryfQqAWHDmAPXAuK5o1Sk81OiWbLXHHNRm8OTBLFZE41-3arlK-Q7aMXjXp106o8p8Dca6OTnSTynW6ykkg86zy1-j4JRkpXI=s1600-w300" alt="" style="width: 300px; height: 180px;">
+                    </div>
+                    <div class="slider-item ">
+                        <img src="https://lh3.googleusercontent.com/places/AAcXr8ryfQqAWHDmAPXAuK5o1Sk81OiWbLXHHNRm8OTBLFZE41-3arlK-Q7aMXjXp106o8p8Dca6OTnSTynW6ykkg86zy1-j4JRkpXI=s1600-w300" alt="" style="width: 300px; height: 180px;">
+                    </div>
+                    <div class="slider-item ">
+                        <img src="https://lh3.googleusercontent.com/places/AAcXr8o52JCZ4eDqDhBAQRIDHcYnN1kNMCKBI27KOEuPvQk0C546Zftc9kpHLdW6kmlnbf1gGd7fSGfpctnLspNCfEpye7Rrmwrp094=s1600-w300" alt="" style="width: 300px; height: 180px;">
+                    </div>
+                </div>
+                <div id="scrollRight" class="scroll-icon">
+                    <i class="fas fa-arrow-right"></i>
+            </div>
+    </div>
+</div>
+</div>
+    <div >
+        <p class="fw-bold my-2">2278 Google reviews</p>
+        <div>
+            <div class="container ">
+                <div class="slider-container shadow-sm " style="display: block;">
+                    <div class="slider-item shadow bg-light border border-1 p-2 col-sm-4" style=" width:250px; height: auto;">
+                        <div class=" d-flex flex-column align-items-start text-start overflow-auto text-wrap lh-base fs-6">
+                        
+                        <p class="fw-bold"><img src="https://lh3.googleusercontent.com/a/AATXAJwZ5yHTyhlbUnanuJwLGdscP95OtAMhFGiAD8Bf=s128-c0x00000000-cc-rp-mo" class="rounded-circle" style="width: 40px;height: 40px;" alt="">
+                            &nbsp;Pradeep Bharti</p>
+                    
+                    <p class="" style="color: gray;">Excellent service from start to finish. 100% satisfaction with the job, professionalism and overall service.We were delighted with you</p>
+                </div>
+            </div>
+                    <div class="slider-item shadow bg-light border border-1 p-2 col-sm-4" style="width:250px; height: auto;">
+                        <div class=" d-flex flex-column align-items-start text-start overflow-auto text-wrap lh-base fs-6">
+                        
+                        <p class="fw-bold"><img src="https://lh3.googleusercontent.com/a/AATXAJwZ5yHTyhlbUnanuJwLGdscP95OtAMhFGiAD8Bf=s128-c0x00000000-cc-rp-mo" class="rounded-circle" style="width: 40px;height: 40px;" alt="">
+                            &nbsp;Pradeep Bharti</p>
+                    
+                    <p class="" style="color: gray;">Excellent service from start to finish. 100% satisfaction with the job, professionalism and overall service.We were delighted with you</p>
+                </div>
+            </div>
+                    <div class="slider-item shadow bg-light border border-1 p-2 col-sm-4" style="width:250px;  height: auto;">
+                        <div class=" d-flex flex-column align-items-start text-start overflow-auto text-wrap lh-base fs-6">
+                        
+                        <p class="fw-bold"><img src="https://lh3.googleusercontent.com/a/AATXAJwZ5yHTyhlbUnanuJwLGdscP95OtAMhFGiAD8Bf=s128-c0x00000000-cc-rp-mo" class="rounded-circle" style="width: 40px;height: 40px;" alt="">
+                            &nbsp;Pradeep Bharti</p>
+                    
+                    <p class="" style="color: gray;">Excellent service from start to finish. 100% satisfaction with the job, professionalism and overall service.We were delighted with you</p>
+                </div>
+            </div>
+                    <div class="slider-item shadow bg-light border border-1 p-2 col-sm-4" style="width:250px; height: auto;">
+                        <div class=" d-flex flex-column align-items-start text-start overflow-auto text-wrap lh-base fs-6">
+                        
+                        <p class="fw-bold"><img src="https://lh3.googleusercontent.com/a/AATXAJwZ5yHTyhlbUnanuJwLGdscP95OtAMhFGiAD8Bf=s128-c0x00000000-cc-rp-mo" class="rounded-circle" style="width: 40px;height: 40px;" alt="">
+                            &nbsp;Pradeep Bharti</p>
+                    
+                    <p class="" style="color: gray;">Excellent service from start to finish. 100% satisfaction with the job, professionalism and overall service.We were delighted with you</p>
+                </div>
+            </div>
+                    <div class="slider-item shadow bg-light border border-1 p-2 col-sm-4" style="width:250px;  height: auto;">
+                        <div class=" d-flex flex-column align-items-start text-start overflow-auto text-wrap lh-base fs-6">
+                        
+                        <p class="fw-bold"><img src="https://lh3.googleusercontent.com/a/AATXAJwZ5yHTyhlbUnanuJwLGdscP95OtAMhFGiAD8Bf=s128-c0x00000000-cc-rp-mo" class="rounded-circle" style="width: 40px;height: 40px;" alt="">
+                            &nbsp;Pradeep Bharti</p>
+                    
+                    <p class="" style="color: gray;">Excellent service from start to finish. 100% satisfaction with the job, professionalism and overall service.We were delighted with you</p>
+                </div>
+            </div>
+                    <div class="slider-item shadow bg-light border border-1 p-2 col-sm-4" style="width:250px; height: auto;">
+                        <div class=" d-flex flex-column align-items-start text-start overflow-auto text-wrap lh-base fs-6">
+                        
+                        <p class="fw-bold"><img src="https://lh3.googleusercontent.com/a/AATXAJwZ5yHTyhlbUnanuJwLGdscP95OtAMhFGiAD8Bf=s128-c0x00000000-cc-rp-mo" class="rounded-circle" style="width: 40px;height: 40px;" alt="">
+                            &nbsp;Pradeep Bharti</p>
+                    
+                    <p class="" style="color: gray;">Excellent service from start to finish. 100% satisfaction with the job, professionalism and overall service.We were delighted with you</p>
+                </div>
+            </div>
+                </div>
+                <div id="scrollRight" class="scroll-icon">
+                    <i class="fas fa-arrow-right"></i>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+    <div class="border border-1 bg-white my-3 p-4 col-11 rounded shadow-sm col-sm-10 mx-auto">
+        
+            <h4 class="fw-bold">Deals in</h4>
+            <div class="container ">
+                <div class="slider-container py-2 shadow-sm" style="display: block;">
+
+                    <div class="slider-item bg-white border border-2 shadow p-2 col-sm-4" style=" width:250px; height: auto;">
+                        <div class=" d-flex flex-column align-items-center fs-6">
+                        
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv7Z1oJ48sdYRu4E2oWujdwI784HlgDYC_Qw&s"  style="width: 80px;height: 45px;" alt="">
+                    
+                    <p style="color: gray;">MRF</p>
+                </div>
+            </div>
+
+                    <div class="slider-item bg-white border border-2 shadow p-2 col-sm-4" style="width:250px; height: auto;">
+                        <div class=" d-flex flex-column align-items-center fs-6">
+                        
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-fUo3J2zuxY5ON7e4XQfBBReMm3z7Udrrkw&s"  style="width: 100px;height: 45px;" alt=""/>
+                    
+                    <p class="text-center" style="color: gray;">CEAT</p>
+                </div>
+            </div>
+
+                    <div class="slider-item bg-white border border-2 shadow p-2 col-sm-4" style="width:250px;  height: auto;">
+                        <div class=" d-flex flex-column align-items-center fs-6">
+                        
+                            <img src="https://cdn.worldvectorlogo.com/logos/goodyear-tire-rubber-company.svg"  style="width: 80px;height: 45px;" alt="">
+                    
+                    <p class="" style="color: gray;">Goodyear</p>
+                </div>
+            </div>
+
+                    <div class="slider-item bg-white border border-2 shadow p-2 col-sm-4" style="width:250px; height: fit-content;">
+                        <div class=" d-flex flex-column align-items-center fs-6">
+                        
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIy-oLEDS7u-e93zPPZxAkYb9I3gY4jSD2mQ&s"  style="width: 80px;height: 45px;" alt="">
+                    
+                    <p style="color: gray;">Apollo</p>
+                </div>
+            </div>
+
+                    <div class="slider-item bg-white border border-2 shadow p-2 col-sm-4" style="width:250px;  height: auto;">
+                        <div class=" d-flex flex-column align-items-center fs-6">
+                        
+                            <img src="https://www.shutterstock.com/image-vector/bridgestone-logo-sign-icon-emblem-600nw-2286811601.jpg"  style="width: 80px;height: 45px;" alt="">
+                    
+                    <p style="color: gray;">Bridgestone</p>
+                </div>
+            </div>
+
+                    <div class="slider-item bg-white border border-2 shadow p-2 col-sm-4" style="width:250px; height: auto;">
+                        <div class=" d-flex flex-column align-items-center fs-6">
+                        
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBht4BdxQwZwIW2fIOtv1Klif8tRQhLgXrmA&s"  style="width: 80px;height: 45px;" alt="">
+                    
+                    <p style="color: gray;">JK</p>
+                </div>
+            </div>
+
+            <div class="slider-item bg-white border border-2 shadow p-2 col-sm-4" style="width:250px; height: auto;">
+                <div class=" d-flex flex-column align-items-center fs-6">
+                
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ8ckL1_iAhWXtId5YEr6OY0nzPKz_zxLy9A&s"  style="width: 80px;height: 45px;" alt="">
+            
+            <p style="color: gray;">Michellin</p>
+        </div>
+    </div>
+
+    <div class="slider-item bg-white border border-2 shadow p-2 col-sm-4" style="width:250px; height: auto;">
+        <div class=" d-flex flex-column align-items-center fs-6">
+        
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8rwyJ3YBg-5kr3Cwvj1xCvPo8aWgMGwflNQ&s"  style="width: 80px;height: 45px;" alt="">
+    
+    <p style="color: gray;">Pirelli</p>
+</div>
+</div>
+                    <div class="slider-item bg-white border border-2 shadow p-2 col-sm-4" style="width:250px; height: auto;">
+    <div class=" d-flex flex-column align-items-center fs-6">
+    
+        <img src="https://logowik.com/content/uploads/images/yokohama-tires4177.jpg"  style="width: 80px;height: 45px;" alt="">
+
+<p style="color: gray;">Yokohoma</p>
+</div>
+</div>
+
+<div class="slider-item bg-white border border-2 shadow p-2 col-sm-4" style="width:250px; height: auto;">
+    <div class=" d-flex flex-column align-items-center fs-6">
+    
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5kitukiF57yzvJYsQrijeDM7ii-avr7u8bIztI44vfGmSQ2Low87RiMHagO678zjqBA&usqp=CAU"  style="width: 80px;height: 45px;" alt="">
+
+<p style="color: gray;">TVS Eurogrip</p>
+</div>
+</div>
+
+                </div>
+                <div id="scrollRight" class="scroll-icon">
+                    <i class="fas fa-arrow-right"></i>
+            </div>
+        </div>
+        
+    </div>
+    <div class="border border-1 my-3 p-4 col-11 rounded shadow-sm col-sm-10 mx-auto bg-white">
+        <div>
+            <h4 class="fw-bold">Services offered by this dealer</h4>
+            <div class="d-flex justify-content-start">
+            <div class=" shadow rounded d-flex flex-column align-items-center col-6 col-sm-4 justify-content-center py-2 mx-1">
+                <img src="https://cdn.tyreplex.net/images/wheel-alignment-bal.png?tr=w-100" class="my-1" alt="">
+                <h5 class="fw-bold my-2">Wheel Balancing</h5>
+                <button type="button" class="btn btn-danger my-1">Book Now</button>
+            </div>
+            <div class=" shadow rounded d-flex flex-column align-items-center col-6 col-sm-4 justify-content-center py-2 mx-1" style="height: 200px;">
+                <img src="https://cdn.tyreplex.net/images/wheel-alignment.png?tr=w-100" alt="" class="my-1">
+                <h5 class="fw-bold my-2">Wheel Alignment</h5>
+                <button type="button" class="btn btn-danger my-1">Book Now</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="mx-auto border border-1 shadow-sm bg-white col-sm-10 col-11 my-3 p-2">
+        <h5 class="fw-bold">Tyres sold by this dealer</h5>
+        <div class="d-flex justify-content-end my-2">
+        
+        <select name="filter" id="filter" class="mx-1">
+            <option value="All" >All</option>
+            <option value="AMAZER 4G LIFE">APOLLO</option>
+            <option value="MILAZE X3">CEAT</option>
+            <option value="NILOGRIP ZAPPER">MRF</option>
+        </select>
+
+        <select name="sort" id="sort" class="mx-1">
+            <option value="popular">Most Popular</option>
+            <option value="desc">Price High to Low</option>
+            <option value="asc">Price Low to High</option>
+        </select>
+
+    </div>
+        <div class="container ">
+            <div id="items" class="row gap-4" style="margin: auto;" ></div>
+            <div class="d-flex align-items-baseline mx-auto py-1 px-2 my-4" style="width: fit-content;">
+                <i class="bi bi-arrow-left mt-1 mx-1" id="previous"></i>
+                <p class="p-1 fw-bold" id="currentPage"></p>
+                <i class="bi bi-arrow-right mt-1 mx-1" id="next"></i>
+            </div>
+            
+        </div>
+    </div>
+    <div class="mx-auto col-11 my-3  col-sm-10">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#" class="text-decoration-none" style="color: grey;">Home</a></li>
+              <li class="breadcrumb-item"><a href="#" class="text-decoration-none" style="color: grey;">Tyre Dealers</a></li>
+              <li class="breadcrumb-item"><a href="#" class="text-decoration-none" style="color: grey;">Tyre Dealers Ghaziabad</a></li>
+              <li class="breadcrumb-item active" aria-current="page">SHREE HEMKUNT TYRES AND SERVICES</li>
+            </ol>
+          </nav>
+    </div>
+    <div class="mx-auto border border-1 shadow-sm bg-white col-sm-10 col-12 my-3 p-2 rounded">
+        <div>
+        <h5 class="fw-bold">Payment Mode</h5>
+        <div class="d-flex justify-content-between" >
+            <div class="d-flex flex-column col-7 col-sm-2 col-md-2" style="flex: 1 2 auto;text-wrap: wrap;">
+                <i class="bi bi-check-lg" style="color: rgba(7, 170, 7, 0.90);font-size: 22px;"><span style="font-style: normal;color: black;font-weight: 500;font-size: 14px;" class="col-4 mx-1" >Deposit to Account</span></i>
+                <i class="bi bi-check-lg" style="color: rgba(7, 170, 7, 0.90);font-size: 22px;"><span style="font-style: normal;color: black;font-weight: 500;font-size: 14px;" class="col-4 mx-1" >Credit Card/Debit Card</span></i>
+                <i class="bi bi-check-lg" style="color: rgba(7, 170, 7, 0.90);font-size: 22px;"><span style="font-style: normal;color: black;font-weight: 500;font-size: 14px;" class="col-4 mx-1" >Wallets(PayTm/PhonePe/Amazon etc.)</span></i>
+            </div>
+            <div class="d-flex flex-column col-5 col-sm-2 col-md-2" style="flex: 2 1 auto;text-wrap: wrap;">
+                <i class="bi bi-check-lg" style="color: rgba(7, 170, 7, 0.90);font-size: 22px;"><span style="font-style: normal;color: black;font-weight: 500;font-size: 14px;" class="col-4 mx-1" >Net Banking</span></i>
+                <i class="bi bi-check-lg" style="color: rgba(7, 170, 7, 0.90);font-size: 22px;"><span style="font-style: normal;color: black;font-weight: 500;font-size: 14px;" class="col-4 mx-1" >UPI</span></i>
+            </div>
+        </div>
+    </div>
+</div>
+   <div class="border border-1 my-3  col-11 shadow-sm col-sm-10 mx-auto" >
+
+    <div class="d-flex justify-content-between p-4" style="background-color: #FFEAAA;">
+        <div class="col-6">
+            <h6 class="" style="font-weight: 800; font-size: 17px;">Have a question about Tyres?</h6>
+            <p class="text-muted">Get an answer in 24 hours form our experts.</p>
+            <input type="search" placeholder="Ask or search your question" class="rounded-pill border border-0 px-3 py-2" style="width: 100%;">
+        </div>
+        <div>
+            <img src="https://cdn.tyreplex.net/themes/moonlight/images/haveQuestion-bg.png?v=600&tr=q-60" alt="">
+        </div>
+    </div>
+
+    <div class="border-1 mb-3 p-4 lh-sm ">
+        <div class="d-flex flex-md-row flex-column justify-content-around">
+            
+            <div>
+                <img src="https://cdn.tyreplex.net/themes/moonlight/images/TP-logo.png?tr=w-150,q-60" alt="" style="width: 100px;">
+                <div class="p-2">
+                    <img src="https://cdn.tyreplex.net/themes/moonlight/images/fb-icon.png?v=526&tr=w-24,q-40" alt="" style="height: 20px;width: 15px; margin: 4px;">
+                    <img src="https://cdn.tyreplex.net/themes/moonlight/images/insta-icon.png?v=526&tr=w-24,q-40s" alt="" style="height: 20px;width: 20px; margin: 4px;">
+                </div>
+            </div>
+
+            
+            <div class="text-muted">
+                <p class="lh-sm">Who We Are</p>
+                <p class="lh-sm">Are You a Tyre Dealer?</p>
+            </div>
+            <div class="text-muted">
+                <p class="lh-sm">Privacy Policy</p>
+                <p class="lh-sm">Terms Of use</p>
+            </div>
+            <div class="text-muted">
+                <p class="lh-sm">Contact Us</p>
+                <p class="lh-sm">Career</p>
+                <p class="lh-sm">Shipping & Return Policy</p>
+            </div>
+        
+    </div>
+    
+   </div>
+   <hr>
+   <p class="text-center">©2024 TyrePlex Technologies & Commerce Pvt. Ltd. All Rights Reserved.</p>
+   </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+<script src="index.js"></script>
+</html>

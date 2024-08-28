@@ -1,0 +1,55 @@
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* Removes the margin to align with the navbar */
+}
+
+.nav-item.dropdown:hover .nav-link {
+    border-bottom: 1px solid red;
+    margin-top: 0; /* Removes the margin to align with the navbar */
+}
+.slider-container {
+    
+    width: auto;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.slider-item {
+    flex: 0 0 auto;
+    display: inline-block;
+    width: 300px;
+    height: 180px;
+    margin-right: 10px;
+    background-color: lightblue;
+    border-radius: 10px;
+    text-align: center;
+    
+    font-size: 24px;
+}
+.slider-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+@media all and (max-width:576px){
+    .slider-container{
+        display: none;
+        max-width: 100vw;
+    }
+} 
+/**
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    <!-- Add more slides as needed -->
+                </div>
+                <!-- Add Pagination if needed -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Navigation if needed -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+
+        </div>
+*/
