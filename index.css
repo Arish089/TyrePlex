@@ -1,4 +1,4 @@
-@import 'bootstrap-icons/font/bootstrap-icons.css';
+/*@import 'bootstrap-icons/font/bootstrap-icons.css';*/
 .nav-item.dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0; /* Removes the margin to align with the navbar */
